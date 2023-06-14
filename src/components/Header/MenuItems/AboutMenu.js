@@ -1,6 +1,6 @@
-const MenuItems = [
+const AboutMenu = [
     {
-        title: '品牌起源',
+        title: '品牌緣起',
         path: '/html',
         cName:'dropdown-link'
     },
@@ -26,4 +26,4 @@ const MenuItems = [
     }
 ]
 
-export default MenuItems
+export default AboutMenu

@@ -1,5 +1,5 @@
 /*=============== Google Font ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
 
 /*=============== Customized CSS Variables ===============*/
 :root {
@@ -13,7 +13,7 @@
   --container-color: #ffffff;
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Noto Sans TC', sans-serif;
 
   /*1rem = 16px ...*/
   /*fs means font size*/
@@ -28,7 +28,7 @@
   /*========== Font Weight ==========*/
   --font-normal: 400;
   --font-medium: 500;
-  --font-semi-bold: 600;
+  --font-semi-bold: 700;
 
   /*========== Margin ==========*/
   /*1rem = 16px, d means dot*/
@@ -62,6 +62,7 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--h3-fs);
+  font-weight: var(--font-normal);
 }
 
 body {
@@ -151,7 +152,7 @@ img {
 /*============================================= Media Query =============================================*/
 
 /* Responsive Ttypography */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 }
 
 /* For large devices */

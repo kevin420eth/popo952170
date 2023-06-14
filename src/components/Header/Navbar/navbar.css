@@ -1,0 +1,47 @@
+.navbar {
+  /* border: 2px black solid; */
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 6rem;
+  gap: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav__logo__conntainer {
+  width: 200px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu__icon {
+  display: none;
+}
+
+.nav__item {
+  position: relative;
+  padding: 1.28rem 0;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+}
+
+.arrow__icon {
+  display: flex;
+}
