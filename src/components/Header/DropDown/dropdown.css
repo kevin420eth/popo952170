@@ -1,5 +1,4 @@
 .dropdown-menu {
-  border: 2.5px solid rgba(0, 0, 0, 0);
   outline: none;
   min-width: 200%;
   position: absolute;
@@ -7,15 +6,19 @@
   text-align: start;
 }
 
+.dropdown-menu :hover {
+  background-color: rgb(254, 255, 255);
+}
+
 .dropdown-menu li {
-  border-bottom: 2px solid rgba(48, 48, 48, 0.5);
-  background: rgba(84, 84, 84, 0.5);
+  border-bottom: 2px solid rgba(48, 48, 48, 0.25);
+  background: whitesmoke;
   cursor: pointer;
 }
 
-.dropdown_menu li:hover {
+/* .dropdown_menu li:hover {
   background-color: aqua;
-}
+} */
 
 .dropdown-menu.clicked {
   display: none;

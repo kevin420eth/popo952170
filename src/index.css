@@ -133,15 +133,15 @@ img {
 /*=============== Button ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: black;
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: rgb(61, 61, 61);
 }
 
 .button--flex {

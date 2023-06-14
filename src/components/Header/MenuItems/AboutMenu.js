@@ -1,7 +1,7 @@
 const AboutMenu = [
     {
         title: '品牌緣起',
-        path: '/html',
+        path: '/brand',
         cName:'dropdown-link'
     },
     {

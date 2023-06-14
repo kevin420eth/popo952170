@@ -1,0 +1,12 @@
+.equipment__section {
+  min-height: 100vh;
+  background-image: url("../../../assets/equipment_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
