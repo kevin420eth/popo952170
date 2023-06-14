@@ -1,10 +1,20 @@
 .appointment__section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   height: 100vh;
+  padding-top: 4rem;
+}
+
+.image__container {
+  height: 200px;
+  width: 200px;
+}
+
+.appointment__title{
+  margin-top: 2rem;
 }
 
 .appointment__description {
@@ -12,6 +22,6 @@
   line-height: 2.5;
 }
 
-.appointment__button{
-    margin-top: 2rem;
+.appointment__button {
+  margin-top: 2rem;
 }

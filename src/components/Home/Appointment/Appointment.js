@@ -1,9 +1,13 @@
 import React from 'react'
 import './appointment.css'
+import image from '../../../assets/appointment_image.png'
 
 const Appointment = () => {
     return (
         <section className='appointment__section'>
+            <div className='image__container'>
+                <img src={image} alt="appointment" />
+            </div>
             <h1 className='appointment__title'>動人笑容，總源自於雙眸綻放的神韻</h1>
             <p className='appointment__subtitle'>Every touching smile, start from the eyes.</p>
             <p className='appointment__description'>

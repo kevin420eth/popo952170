@@ -4,9 +4,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0 6rem;
+}
+
+.content__container {
+  background-color: aliceblue;
+  opacity: 0.85;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.equipment__description {
+  margin-top: 2rem;
+  text-align: start;
+}
+
+.equipment__button{
+    margin-top: 2rem;
 }
