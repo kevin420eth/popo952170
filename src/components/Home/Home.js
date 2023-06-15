@@ -6,6 +6,8 @@ import Main from './Main/Main'
 import Appointment from './Appointment/Appointment'
 import Equipment from './Equipment/Equipment'
 import Article from './Article/Article'
+import Services from './Services/Services'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     return (
@@ -18,9 +20,10 @@ const Home = () => {
                 <Appointment />
                 <Equipment />
                 <Article />
+                <Services />
             </main>
             <footer>
-
+                <Footer />
             </footer>
         </div>
     )

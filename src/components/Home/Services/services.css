@@ -1,0 +1,8 @@
+.services__section {
+  min-height: 100vh;
+  padding-top: 80px;
+  background-image: url("../../../assets/services_background.png");
+  background-size: cover;
+  opacity: 0.75;
+  text-align: center;
+}

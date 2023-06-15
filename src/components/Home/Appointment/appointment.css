@@ -8,12 +8,39 @@
   padding-top: 4rem;
 }
 
-.image__container {
-  height: 200px;
-  width: 200px;
+@keyframes smile-animation {
+  0% {
+    background-image: url("../../../assets/appointment_image_1.png");
+  }
+  20% {
+    background-image: url("../../../assets/appointment_image_2.png");
+  }
+  40% {
+    background-image: url("../../../assets/appointment_image_3.png");
+  }
+  60% {
+    background-image: url("../../../assets/appointment_image_4.png");
+  }
+  80% {
+    background-image: url("../../../assets/appointment_image_5.png");
+  }
+  100% {
+    background-image: url("../../../assets/appointment_image_1.png");
+  }
 }
 
-.appointment__title{
+.image__container {
+  background-image: url("../../../assets/appointment_image_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  animation: smile-animation 20s infinite;
+  animation-delay: 1s;
+  
+}
+
+.appointment__title {
   margin-top: 2rem;
 }
 
