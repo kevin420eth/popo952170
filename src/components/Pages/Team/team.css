@@ -1,0 +1,39 @@
+.team__section {
+  padding: 100px 100px 0 100px;
+  text-align: center;
+}
+
+.team__section__title {
+  margin-bottom: 2rem;
+}
+
+.team__profile__section {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.doctor__profile__preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 calc(33.33% - 20px);
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid rgb(240, 14, 14);
+}
+
+.doctor__photo__preview {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.doctor__photo__preview img {
+  /* max-width: 100%;
+  max-height: 100% */
+}

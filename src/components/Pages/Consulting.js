@@ -1,9 +1,13 @@
 import React from 'react'
 import './consulting.css'
+import Navbar from '../Header/Navbar/Navbar'
+
 const Consulting = () => {
     return (
         <div>
-            <h1 className='consulting'>Consulting</h1>
+            <header>
+                <Navbar />
+            </header>
         </div>
     )
 }

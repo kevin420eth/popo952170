@@ -38,8 +38,8 @@ const Navbar = () => {
                     {dropdownitem && <ItemDropdown />}
                 </li>
                 <li className='nav__item'>
-                    <Link to='/contact-us' className='nav__link'>
-                        牙醫團隊
+                    <Link to='/team' className='nav__link'>
+                        醫療團隊
                     </Link>
                 </li>
                 <li className='nav__item'>

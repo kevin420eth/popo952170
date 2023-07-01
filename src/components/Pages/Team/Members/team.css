@@ -1,0 +1,32 @@
+.profile__section {
+  padding: 100px 100px 0 100px;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid rgb(240, 17, 17);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile__preview {
+  width: 30%;
+  margin-right: 5rem;
+}
+
+.profile__photo {
+  width: 100%;
+  height: 75%;
+  background-image: url("../../../assets/Johnny_Lin.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.education {
+  margin-bottom: 2rem;
+}
+.profile__text {
+}
+
+.major__treatment__list,
+.education__list {
+  list-style: inside;
+}
