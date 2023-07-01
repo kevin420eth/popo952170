@@ -4,19 +4,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 
 import Home from './components/Home/Home';
-import ErrorPage from "./error-page";
+import ErrorPage from "./components/Pages/Error/Error";
 import Team from './components/Pages/Team/Team'
-import Consulting from './components/Pages/Consulting'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <ErrorPage />
-  },
-  {
-    path: "/brand",
-    element: <Consulting />,
   },
   {
     path: "/team",

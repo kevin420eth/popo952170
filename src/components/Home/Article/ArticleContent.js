@@ -1,9 +1,9 @@
-import thumnail_1 from '../../../assets/article_content_thumbnail_1.jpg'
-import thumnail_2 from '../../../assets/article_content_thumbnail_2.jpg'
-import thumnail_3 from '../../../assets/article_content_thumbnail_3.jpg'
-import thumnail_4 from '../../../assets/article_content_thumbnail_4.jpeg'
-import thumnail_5 from '../../../assets/article_content_thumbnail_5.jpg'
-import thumnail_6 from '../../../assets/article_content_thumbnail_6.jpg'
+import thumnail_1 from '../../../assets/article_content_thumbnail_1.png'
+import thumnail_2 from '../../../assets/article_content_thumbnail_2.png'
+import thumnail_3 from '../../../assets/article_content_thumbnail_3.png'
+import thumnail_4 from '../../../assets/article_content_thumbnail_4.png'
+import thumnail_5 from '../../../assets/article_content_thumbnail_5.png'
+import thumnail_6 from '../../../assets/article_content_thumbnail_6.png'
 
 const ArticleContent = [
     {

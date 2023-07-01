@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/logo.png'
-import line_qrcode from '../../assets/line_qrcode.jpg'
+import line_qrcode from '../../assets/line_qrcode.png'
 
 const Footer = () => {
     const currentDate = new Date()

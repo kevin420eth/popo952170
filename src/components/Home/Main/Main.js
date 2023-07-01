@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import home_logo from '../../../assets/home_logo.png'
+import home_logo from '../../../assets/logo.png'
 
 const Main = () => {
   return (

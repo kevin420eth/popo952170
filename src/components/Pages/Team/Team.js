@@ -1,7 +1,8 @@
 import React from 'react'
 import './team.css'
 import Navbar from '../../Header/Navbar/Navbar'
-import johnnylin from '../../../assets/Johnny_Lin.jpg'
+
+import doctor_0 from '../../../assets/doctor_0.png'
 import doctor_1 from '../../../assets/doctor_1.png'
 import doctor_2 from '../../../assets/doctor_2.png'
 import doctor_3 from '../../../assets/doctor_3.png'
@@ -21,51 +22,59 @@ const Team = () => {
                 <div className='team__profile__section'>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
-                            <img src={johnnylin} alt="" />
+                            <img src={doctor_0} alt="" />
                         </div>
-                        <p>林昌延 院長</p>
+                        <p className='doctor__name'>林昌延 院長</p>
+                        <p className='major__skill'>牙周植牙專科</p>
                     </a>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_1} alt="" />
                         </div>
-                        <p>江逆鱗 醫師</p>
+                        <p className='doctor__name'>江逆鱗 副院長</p>
+                        <p className='major__skill'>美學植牙專科</p>
                     </a>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_2} alt="" />
                         </div>
-                        <p>林強尼 醫師</p>
+                        <p className='doctor__name'>林強尼 醫師</p>
+                        <p className='major__skill'>矯正專科</p>
                     </a>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_3} alt="" />
                         </div>
-                        <p>林安海 醫師</p>
+                        <p className='doctor__name'>林安海 醫師</p>
+                        <p className='major__skill'>兒童專科</p>
                     </a>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_4} alt="" />
                         </div>
-                        <p>林波波 醫師</p>
+                        <p className='doctor__name'>林波波 醫師</p>
+                        <p className='major__skill'>口外專科</p>
                     </a>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_5} alt="" />
                         </div>
-                        <p>林瑟薇 醫師</p>
+                        <p className='doctor__name'>林瑟薇 醫師</p>
+                        <p className='major__skill'>根管治療專科</p>
                     </a>
                     <div className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_6} alt="" />
                         </div>
-                        <p>林波奇 醫師</p>
+                        <p className='doctor__name'>林波奇 醫師</p>
+                        <p className='major__skill'>家庭牙醫專科</p>
                     </div>
                     <a href='https://google.com' className='doctor__profile__preview'>
                         <div className='doctor__photo__preview'>
                             <img src={doctor_7} alt="" />
                         </div>
-                        <p>林森林 醫師</p>
+                        <p className='doctor__name'>林森林 醫師</p>
+                        <p className='major__skill'>矯正專科</p>
                     </a>
                 </div>
             </section>
