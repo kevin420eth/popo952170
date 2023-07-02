@@ -16,6 +16,14 @@
   width: 200px;
 }
 
+.nav__logo__conntainer{
+  height:100px;
+}
+
+.nav__logo__image{
+  height: 100%;
+}
+
 .nav__menu {
   margin-left: 10rem;
   display: flex;
