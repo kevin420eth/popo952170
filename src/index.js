@@ -6,6 +6,7 @@ import './index.css'
 import Home from './components/Home/Home';
 import ErrorPage from "./components/Pages/Error/Error";
 import Team from './components/Pages/Team/Team'
+import JohnnyLin from './components/Pages/Team/Members/JohnnyLin'
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/team",
-    element: <Team />,
+    element: <Team />
+  },
+  {
+    path: "/team/:doctorName",
+    element: <JohnnyLin />,
   }
 ])
 

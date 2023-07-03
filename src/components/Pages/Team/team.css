@@ -1,9 +1,14 @@
+.banner__container{
+  padding-top: 80px;
+}
+
 .team__section {
-  padding: 100px 100px 0 100px;
+  padding: 0px 100px 0 100px;
   text-align: center;
 }
 
 .team__section__title {
+  font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
@@ -25,11 +30,11 @@
 }
 
 .doctor__profile__preview:hover {
-  background-color: rgb(255, 234, 206);
+  background-color: rgb(230, 230, 230);
 }
 
 .doctor__photo__preview {
-  border: 2px solid black;
+  border: 2px solid rgb(100, 100, 100);
   border-radius: 50%;
   height: 150px;
   width: 150px;

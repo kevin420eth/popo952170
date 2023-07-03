@@ -30,6 +30,7 @@
 }
 
 .image__container {
+  border-radius: 50%;
   background-image: url("../../../assets/appointment_image_1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +38,6 @@
   width: 200px;
   animation: smile-animation 20s infinite;
   animation-delay: 1s;
-  
 }
 
 .appointment__title {

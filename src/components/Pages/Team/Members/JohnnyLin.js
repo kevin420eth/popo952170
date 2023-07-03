@@ -1,19 +1,28 @@
 import React from 'react'
-import './team.css'
-import Navbar from '../../Header/Navbar/Navbar'
+import { useParams } from 'react-router-dom';
+import './johnnylin.css'
+import Navbar from '../../../Header/Navbar/Navbar'
+import DoctorProfile from '../DoctorProfile'
+import banner from '../../../../assets/banner.png'
 
-const Team = () => {
+const JohnnyLin = () => {
+    const { doctorName } = useParams();
+
     return (
         <div>
             <header>
                 <Navbar />
             </header>
-            <div className='profile__section'>
+            <div className='banner__container'>
+                <img src={banner} alt="" />
+            </div>
+            <p className='doctor__name'>林昌延 院長</p>
+            <section className='profile__section'>
                 <div className='profile__preview'>
                     <div className='profile__photo'></div>
-                    <p className='doctor__title'>院長</p>
+                    {/* <p className='doctor__title'>院長</p>
                     <p className='doctor__chinese__name'>林昌延醫師</p>
-                    <p className='doctor__chinese__name'>Johnny Lin</p>
+                    <p className='doctor__chinese__name'>Johnny Lin</p> */}
                 </div>
                 <div className='profile__text'>
                     <div className='education'>
@@ -37,9 +46,9 @@ const Team = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }
 
-export default Team
+export default JohnnyLin

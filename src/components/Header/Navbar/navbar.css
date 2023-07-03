@@ -12,12 +12,8 @@
   background-color: white;
 }
 
-.nav__logo__conntainer {
-  width: 200px;
-}
-
 .nav__logo__conntainer{
-  height:100px;
+  height:60px;
 }
 
 .nav__logo__image{
