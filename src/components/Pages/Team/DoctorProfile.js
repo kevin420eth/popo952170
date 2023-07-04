@@ -12,6 +12,7 @@ const DoctorProfile = [
         name:"林昌延",
         englishName:"Johnny Lin",
         title:'院長',
+        route:'johnnylin',
         profilePhoto:doctor_0,
         education:[
             "中山醫學大學牙醫學士",
@@ -33,6 +34,7 @@ const DoctorProfile = [
         name:"江逆鱗",
         englishName:"Johnny Lin",
         title:'副院長',
+        route:'johnnilin',
         profilePhoto:doctor_1,
         education:[
             "中山醫學大學牙醫學士",
@@ -54,6 +56,7 @@ const DoctorProfile = [
         name:"林強尼",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linjohnny',
         profilePhoto:doctor_2,
         education:[
             "中山醫學大學牙醫學士",
@@ -75,6 +78,7 @@ const DoctorProfile = [
         name:"林安海",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linann',
         profilePhoto:doctor_3,
         education:[
             "中山醫學大學牙醫學士",
@@ -96,6 +100,7 @@ const DoctorProfile = [
         name:"林波波",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linpopo',
         profilePhoto:doctor_4,
         education:[
             "中山醫學大學牙醫學士",
@@ -117,6 +122,7 @@ const DoctorProfile = [
         name:"林瑟薇",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linhathway',
         profilePhoto:doctor_5,
         education:[
             "中山醫學大學牙醫學士",
@@ -138,6 +144,7 @@ const DoctorProfile = [
         name:"林波奇",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linpoki',
         profilePhoto:doctor_6,
         education:[
             "中山醫學大學牙醫學士",
@@ -159,6 +166,7 @@ const DoctorProfile = [
         name:"林森林",
         englishName:"Johnny Lin",
         title:'醫師',
+        route:'linforest',
         profilePhoto:doctor_7,
         education:[
             "中山醫學大學牙醫學士",

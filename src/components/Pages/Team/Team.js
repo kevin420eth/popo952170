@@ -20,7 +20,7 @@ const Team = () => {
                 <div className='team__profile__section'>
                     {DoctorProfile.map((item, key) => {
                         return (
-                            <a href='/team/johnnylin' className='doctor__profile__preview' key={key}>
+                            <a href={`/team/${item.route}`} className='doctor__profile__preview' key={key}>
                                 <div className='doctor__photo__preview'>
                                     <img src={item.profilePhoto} alt="" />
                                 </div>
