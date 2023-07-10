@@ -2,7 +2,7 @@ import React from 'react'
 import './team.css'
 
 import Navbar from '../../Header/Navbar/Navbar'
-import DoctorProfile from './DoctorProfile'
+import doctorData from './doctorData'
 
 import banner from '../../../assets/banner.png'
 
@@ -18,7 +18,7 @@ const Team = () => {
             <section className='team__section'>
                 <p className='team__section__title'>醫療團隊</p>
                 <div className='team__profile__section'>
-                    {DoctorProfile.map((item, key) => {
+                    {doctorData.map((item, key) => {
                         return (
                             <a href={`/team/${item.route}`} className='doctor__profile__preview' key={key}>
                                 <div className='doctor__photo__preview'>

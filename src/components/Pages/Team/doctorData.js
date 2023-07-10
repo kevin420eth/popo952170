@@ -7,7 +7,7 @@ import doctor_5 from '../../../assets/doctor_5.png'
 import doctor_6 from '../../../assets/doctor_6.png'
 import doctor_7 from '../../../assets/doctor_7.png'
 
-const DoctorProfile = [
+const doctorData = [
     {
         name:"林昌延",
         englishName:"Johnny Lin",
@@ -186,4 +186,4 @@ const DoctorProfile = [
     },
 ]
 
-export default DoctorProfile
+export default doctorData
