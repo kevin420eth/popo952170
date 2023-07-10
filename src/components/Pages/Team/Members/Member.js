@@ -2,14 +2,14 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import './member.css'
 import Navbar from '../../../Header/Navbar/Navbar'
-import doctorData from '../doctorData'
+import _doctorData from '../doctorData'
 import banner from '../../../../assets/banner.png'
 
 const Member = () => {
     const { doctorName } = useParams();
     const doctorNamePool = ['johnnylin', 'johnnilin', 'linjohnny', 'linann', 'linpopo', 'linhathway', 'linpoki', 'linforest']
     const doctorIndex = doctorNamePool.indexOf(doctorName)
-    const doctorData = doctorData[doctorIndex]
+    const doctorData = _doctorData[doctorIndex]
     return (
         <div>
             <header>

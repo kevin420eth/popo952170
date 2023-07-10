@@ -3,7 +3,6 @@ import './services.css'
 import Navbar from '../../Header/Navbar/Navbar'
 import banner from '../../../assets/banner.png'
 import serviceData from './servicesData'
-import service_1 from '../../../assets/service_1.png'
 
 const Services = () => {
   return (
@@ -19,7 +18,7 @@ const Services = () => {
         <div className='services__container'>
           {serviceData.map((item, key) => {
             return (
-              <div className='service__showcase'>
+              <a href='' className='service__showcase' key={key}>
                 <div className='showcase__image__container'>
                   <img src={item.serviceImage} alt="showcase__image" className='showcase__image' />
                 </div>
@@ -28,7 +27,7 @@ const Services = () => {
                   <p className='service__short__description'>{item.serviceDescription}</p>
                   <a href='https://google.com' className='service__checkmore__button'>查看更多</a>
                 </div>
-              </div>
+              </a>
             )
           })}
 
