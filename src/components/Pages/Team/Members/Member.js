@@ -10,6 +10,7 @@ const Member = () => {
     const doctorNamePool = ['johnnylin', 'johnnilin', 'linjohnny', 'linann', 'linpopo', 'linhathway', 'linpoki', 'linforest']
     const doctorIndex = doctorNamePool.indexOf(doctorName)
     const doctorData = _doctorData[doctorIndex]
+    
     return (
         <div>
             <header>
@@ -32,7 +33,7 @@ const Member = () => {
                             <ul className='education__list'>
                                 {doctorData.education.map((education, key) => {
                                     return (
-                                        <li>{education}</li>
+                                        <li key={key}>{education}</li>
                                     )
                                 })}
                             </ul>
@@ -42,7 +43,7 @@ const Member = () => {
                             <ul className='major__treatment__list'>
                                 {doctorData.majorTreatment.map((major, key) => {
                                     return (
-                                        <li>{major}</li>
+                                        <li key={key}>{major}</li>
                                     )
                                 })}
                             </ul>
