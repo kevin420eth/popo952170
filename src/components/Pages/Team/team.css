@@ -34,7 +34,7 @@
 }
 
 .doctor__photo__preview {
-  border: 2px solid rgb(100, 100, 100);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   height: 150px;
   width: 150px;

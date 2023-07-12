@@ -28,9 +28,9 @@
 
 .services__showcase__image__container {
   width: 100%;
-  height: 60%;
+  height: 55%;
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .services__showcase__image {
@@ -41,6 +41,10 @@
 
 .services__showcase__text__container {
   margin-bottom: 2rem;
+}
+
+.services__showcase__service__name{
+  margin-bottom: 1rem;
 }
 
 .services__showcase__button {
