@@ -27,7 +27,7 @@ const servicesData = [
     {
         serviceImage: service_3,
         serviceName: "全植牙",
-        serviceShortDescription: "幫你種幾顆新牙齒,讓你的口腔變開心農場",
+        serviceShortDescription: "幫你種幾顆新牙齒",
         serviceLongDescription: "讓晶悅牙醫體系解決您的煩惱！晶悅牙醫體系提供優質的中壢人工植牙療程，由專業醫師為您植入鈦金屬材質的人工牙根（植體），待骨頭與植體密合後，再安裝支台齒及人工牙冠，讓您快速找回自信又迷人的笑容！",
         route: "plant"
     },
