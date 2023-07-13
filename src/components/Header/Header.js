@@ -43,8 +43,8 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className='nav__item'>
-                    <Link to='/equipments' className='nav__link'>
-                        醫療設備
+                    <Link to='/environment' className='nav__link'>
+                        診所環境
                     </Link>
                 </li>
                 <li className='nav__item'>

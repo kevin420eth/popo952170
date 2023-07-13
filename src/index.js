@@ -9,7 +9,7 @@ import Team from './components/Pages/Team/Team'
 import Member from './components/Pages/Team/Members/Member'
 import Services from './components/Pages/Services/Services';
 import Service from './components/Pages/Services/Service/Service'
-import Equipments from './components/Pages/Equipments/Equipments';
+import Environment from './components/Pages/Environment/Environment';
 
 const router = createBrowserRouter([
   {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/equipments",
-    element: <Equipments/>
+    element: <Environment/>
   },
 ])
 
