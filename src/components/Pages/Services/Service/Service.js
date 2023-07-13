@@ -1,6 +1,6 @@
 import React from 'react'
 import './service.css'
-import Navbar from '../../../Header/Navbar/Navbar'
+import Header from '../../../Header/Header'
 import banner from '../../../../assets/banner.png'
 import { useParams } from 'react-router-dom'
 import _servicesData from '../servicesData'
@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <div>
       <header>
-        <Navbar />
+        <Header />
       </header>
       <div className='banner__container'>
         <img src={banner} alt="" />

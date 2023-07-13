@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import './member.css'
-import Navbar from '../../../Header/Navbar/Navbar'
+import Header from '../../../Header/Header'
 import _doctorData from '../doctorData'
 import banner from '../../../../assets/banner.png'
 
@@ -14,7 +14,7 @@ const Member = () => {
     return (
         <div>
             <header>
-                <Navbar />
+                <Header />
             </header>
             <div className='banner__container'>
                 <img src={banner} alt="" />

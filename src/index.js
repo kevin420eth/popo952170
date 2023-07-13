@@ -9,6 +9,7 @@ import Team from './components/Pages/Team/Team'
 import Member from './components/Pages/Team/Members/Member'
 import Services from './components/Pages/Services/Services';
 import Service from './components/Pages/Services/Service/Service'
+import Equipments from './components/Pages/Equipments/Equipments';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
   {
     path:"/services/:serviceName",
     element: <Service/>
-  }
+  },
+  {
+    path:"/equipments",
+    element: <Equipments/>
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

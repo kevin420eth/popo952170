@@ -1,7 +1,7 @@
 import React from 'react'
 import './team.css'
 
-import Navbar from '../../Header/Navbar/Navbar'
+import Header from '../../Header/Header'
 import doctorData from './doctorData'
 
 import banner from '../../../assets/banner.png'
@@ -10,7 +10,7 @@ const Team = () => {
     return (
         <div>
             <header>
-                <Navbar />
+                <Header />
             </header>
             <div className='banner__container'>
                 <img src={banner} alt="" />

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ItemDropdown from '../DropDown/ServicesDropDown'
-import AboutDropDown from '../DropDown/AboutDropDown'
-import './navbar.css'
-import logo from '../../../assets/logo.png'
+import ItemDropdown from './DropDown/ServicesDropDown'
+import AboutDropDown from './DropDown/AboutDropDown'
+import './header.css'
+import logo from '../../assets/logo.png'
 
 import { AiOutlineClose, AiOutlineMenu, AiOutlineDown } from 'react-icons/ai'
 
-const Navbar = () => {
+const Header = () => {
     const [click, setClick] = useState(false)
     const [dropdownabout, setDropdownAbout] = useState(false)
     const [dropdownitem, setDropdownItem] = useState(false)
@@ -43,6 +43,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='nav__item'>
+                    <Link to='/equipments' className='nav__link'>
+                        醫療設備
+                    </Link>
+                </li>
+                <li className='nav__item'>
                     <Link to='/contact-us' className='nav__link'>
                         案例回顧
                     </Link>
@@ -63,4 +68,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Header

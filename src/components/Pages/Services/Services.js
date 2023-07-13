@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import Navbar from '../../Header/Navbar/Navbar'
+import Header from '../../Header/Header'
 import banner from '../../../assets/banner.png'
 import serviceData from './servicesData'
 
@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div>
       <header>
-        <Navbar />
+        <Header />
       </header>
       <div className='banner__container'>
         <img src={banner} alt="" />
