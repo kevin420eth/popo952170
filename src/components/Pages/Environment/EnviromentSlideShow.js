@@ -20,11 +20,6 @@ import enviroment_8 from '../../../assets/enviroment_8.png'
 import enviroment_9 from '../../../assets/enviroment_9.png'
 import enviroment_10 from '../../../assets/enviroment_10.png'
 import enviroment_11 from '../../../assets/enviroment_11.png'
-import enviroment_12 from '../../../assets/enviroment_12.png'
-import enviroment_13 from '../../../assets/enviroment_13.png'
-import enviroment_14 from '../../../assets/enviroment_14.png'
-import enviroment_15 from '../../../assets/enviroment_15.png'
-import enviroment_16 from '../../../assets/enviroment_16.png'
 
 const EnviromentSlideShow = () => {
     return (
@@ -32,7 +27,7 @@ const EnviromentSlideShow = () => {
             className='enviroment__swiper'
             navigation={true}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             centeredSlides={true}
             modules={[Autoplay, Pagination, Navigation]}
             spaceBetween={30}
@@ -40,10 +35,18 @@ const EnviromentSlideShow = () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
-            <SwiperSlide>{enviroment_0}</SwiperSlide>
-            <SwiperSlide>{enviroment_1}</SwiperSlide>
-            <SwiperSlide>{enviroment_2}</SwiperSlide>
-            <SwiperSlide>{enviroment_3}</SwiperSlide>
+            <SwiperSlide><img src={enviroment_0} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_1} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_2} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_3} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_4} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_5} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_6} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_7} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_8} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_9} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_10} alt="" /></SwiperSlide>
+            <SwiperSlide><img src={enviroment_11} alt="" /></SwiperSlide>
         </Swiper>
     )
 }
