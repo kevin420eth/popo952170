@@ -1,4 +1,11 @@
-.doctor__name{
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor__name {
   text-align: center;
   font-size: 1.75rem;
 }
@@ -24,7 +31,7 @@
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.profile__photo img{
+.profile__photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -37,4 +44,36 @@
 .major__treatment__list,
 .education__list {
   list-style: inside;
+}
+
+.time__shift__title{
+margin-bottom: 2rem;
+}
+
+.timetable {
+  width: 75%;
+  border-collapse: collapse;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.timetable th,
+.timetable td {
+  border-radius: 2rem 2rem 0 0;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable tr{
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.timetable tr:last-child{
+  border-bottom: none;
+
+}
+
+.timetable th {
+  background-color: #f2f2f2;
 }

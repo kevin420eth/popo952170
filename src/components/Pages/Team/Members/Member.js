@@ -5,12 +5,14 @@ import Header from '../../../Header/Header'
 import _doctorData from '../doctorData'
 import banner from '../../../../assets/banner.png'
 
+import { AiOutlineCheck } from 'react-icons/ai'
+
 const Member = () => {
     const { doctorName } = useParams();
     const doctorNamePool = ['johnnylin', 'johnnilin', 'linjohnny', 'linann', 'linpopo', 'linhathway', 'linpoki', 'linforest']
     const doctorIndex = doctorNamePool.indexOf(doctorName)
     const doctorData = _doctorData[doctorIndex]
-    
+
     return (
         <div>
             <header>
@@ -19,7 +21,7 @@ const Member = () => {
             <div className='banner__container'>
                 <img src={banner} alt="" />
             </div>
-            <div>
+            <div className='profile__container'>
                 <p className='doctor__name'>{doctorData.name} {doctorData.title}</p>
                 <section className='profile__section'>
                     <div className='profile__preview'>
@@ -50,6 +52,45 @@ const Member = () => {
                         </div>
                     </div>
                 </section>
+                <p className='time__shift__title'>看診時間</p>
+                <table class="timetable">
+                    <tr>
+                        <th>時間</th>
+                        <th>禮拜一</th>
+                        <th>禮拜二</th>
+                        <th>禮拜三</th>
+                        <th>禮拜四</th>
+                        <th>禮拜五</th>
+                        <th>禮拜六</th>
+                    </tr>
+                    <tr>
+                        <td>早 9:00-12:00</td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                        <td></td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                        <td><AiOutlineCheck /></td>
+                    </tr>
+                    <tr>
+                        <td>午 15:00-18:00</td>
+                        <td><AiOutlineCheck /></td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                        <td></td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>晚 18:00-21:00</td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                        <td><AiOutlineCheck /></td>
+                        <td></td>
+                        <td></td>
+                        <td><AiOutlineCheck /></td>
+                    </tr>
+                </table>
             </div>
         </div>
     )
