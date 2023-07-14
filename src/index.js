@@ -10,6 +10,7 @@ import Member from './components/Pages/Team/Members/Member'
 import Services from './components/Pages/Services/Services';
 import Service from './components/Pages/Services/Service/Service'
 import Environment from './components/Pages/Environment/Environment';
+import Cases from './components/Pages/Cases/Cases'
 
 const router = createBrowserRouter([
   {
@@ -26,17 +27,21 @@ const router = createBrowserRouter([
     element: <Member />,
   },
   {
-    path:"/services",
-    element: <Services/>
+    path: "/services",
+    element: <Services />
   },
   {
-    path:"/services/:serviceName",
-    element: <Service/>
+    path: "/services/:serviceName",
+    element: <Service />
   },
   {
-    path:"/equipments",
-    element: <Environment/>
+    path: "/enviroment",
+    element: <Environment />
   },
+  {
+    path: "/cases",
+    element: <Cases />
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -2,6 +2,7 @@ import React from 'react'
 import './environment.css'
 import Header from '../../Header/Header'
 import banner from '../../../assets/banner.png'
+import EnviromentSlideShow from './EnviromentSlideShow'
 
 const Environment = () => {
     return (
@@ -14,6 +15,7 @@ const Environment = () => {
             </div>
             <section className='enviroment__section'>
                 <p className='enviroment__section__title'>診所環境</p>
+                <EnviromentSlideShow />
             </section>
         </div>
     )

@@ -43,12 +43,12 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className='nav__item'>
-                    <Link to='/environment' className='nav__link'>
+                    <Link to='/enviroment' className='nav__link'>
                         診所環境
                     </Link>
                 </li>
                 <li className='nav__item'>
-                    <Link to='/contact-us' className='nav__link'>
+                    <Link to='/cases' className='nav__link'>
                         案例回顧
                     </Link>
                 </li>
