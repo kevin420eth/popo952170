@@ -46,8 +46,8 @@
   list-style: inside;
 }
 
-.time__shift__title{
-margin-bottom: 2rem;
+.time__shift__title {
+  margin-bottom: 2rem;
 }
 
 .timetable {
@@ -65,13 +65,16 @@ margin-bottom: 2rem;
   text-align: center;
 }
 
-.timetable tr{
+.timetable tr {
   border-bottom: 1px solid rgb(150, 150, 150);
 }
 
-.timetable tr:last-child{
+.timetable tr:last-child {
   border-bottom: none;
+}
 
+.time__shift__slot {
+  color: rgb(0, 185, 0);
 }
 
 .timetable th {

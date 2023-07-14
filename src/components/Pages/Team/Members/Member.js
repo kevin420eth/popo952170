@@ -65,30 +65,30 @@ const Member = () => {
                     </tr>
                     <tr>
                         <td>早 9:00-12:00</td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
-                        <td></td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
-                        <td><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
                     </tr>
                     <tr>
                         <td>午 15:00-18:00</td>
-                        <td><AiOutlineCheck /></td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
-                        <td></td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
                     </tr>
                     <tr>
                         <td>晚 18:00-21:00</td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
-                        <td><AiOutlineCheck /></td>
-                        <td></td>
-                        <td></td>
-                        <td><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'></td>
+                        <td className='time__shift__slot'><AiOutlineCheck /></td>
                     </tr>
                 </table>
             </div>
