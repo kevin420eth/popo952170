@@ -14,7 +14,6 @@ const Contact = () => {
       </div>
       <section className='contact__section section'>
         <h1 className='section__title'>立即預約</h1>
-
         <div className='contact__container'>
           <div className='contact__information__container'>
             <p className='contact__information__title'>聯絡資訊</p>
@@ -45,7 +44,6 @@ const Contact = () => {
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
-
           <div className='contact__form__container'>
             <form className='contact__form' action="">
               <label for="name">姓名<span className='required__symbol'>*</span></label>
@@ -74,11 +72,11 @@ const Contact = () => {
 
               <label for="suggestion">想跟我們說...</label>
               <textarea className='' id="suggestion" name='suggestion' col='2000' maxLength='1000' placeholder='你好，︀我是林小明，︀我希望...'></textarea>
+              
               <label className='submit__button' for="submit">提交表單</label>
               <input className='submit__input' type="submit" value="Submit" name='submit' />
             </form>
           </div>
-
         </div>
       </section>
     </div>
