@@ -1,19 +1,14 @@
 /*=============== Google Font ===============*/
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
 
 /*=============== Customized CSS Variables ===============*/
+
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
-  --title-color: rgb(255, 255, 255);
-  --title-color-dark: rgb(255, 255, 255);
-  --text-color: rgb(255, 255, 255);
-  --body-color: rgb(255, 255, 255);
-  --container-color: #ffffff;
-
   /*========== Font and typography ==========*/
-  --body-font: 'Noto Sans TC', sans-serif;
+  --body-font: "Noto Sans TC", sans-serif;
 
   /*1rem = 16px ...*/
   /*fs means font size*/
@@ -26,11 +21,13 @@
   --tiny-fs: 0.625rem;
 
   /*========== Font Weight ==========*/
+
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 700;
 
   /*========== Margin ==========*/
+
   /*1rem = 16px, d means dot*/
   --mg-d25: 0.25rem;
   --mg-d5: 0.5rem;
@@ -40,12 +37,10 @@
   --mg-2: 2rem;
   --mg-2d5: 2.5rem;
   --mg-3: 3rem;
-
-  /*========== Rookie's border ==========*/
-  --rk: 2px solid black;
 }
 
 /*============================================= Base Elements =============================================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -70,13 +65,6 @@ body {
   color: rgb(0, 0, 0);
 }
 
-h1,
-h2,
-h3 {
-  color: rgb(0, 0, 0);
-  font-weight: var(--font-semi-bold);
-}
-
 ul {
   list-style: none;
 }
@@ -99,13 +87,16 @@ img {
 
 /*========================================= Reuseable CSS Class ==========================================*/
 .section {
-  padding: 0 100px;
   text-align: center;
+  padding: 0 100px;
+  margin-bottom: 2rem;
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: rgb(0, 0, 0);
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .section__subtitle {
@@ -120,34 +111,11 @@ img {
 }
 
 /*=============== Layout ===============*/
+
 .container {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.grid {
-  display: grid;
-  gap: 1.5rem;
-}
-
-/*=============== Button ===============*/
-.button {
-  display: inline-block;
-  background-color: black;
-  color: var(--container-color);
-  padding: 1rem 1rem;
-  border-radius: 1rem;
-  font-weight: var(--font-medium);
-}
-
-.button:hover {
-  background-color: rgb(61, 61, 61);
-}
-
-.button--flex {
-  display: inline-flex;
-  align-items: center;
 }
 
 /*============================================= Media Query =============================================*/
