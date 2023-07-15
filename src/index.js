@@ -11,6 +11,7 @@ import Services from './components/Pages/Services/Services';
 import Service from './components/Pages/Services/Service/Service'
 import Environment from './components/Pages/Environment/Environment';
 import Cases from './components/Pages/Cases/Cases'
+import Contact from './components/Pages/Contact/Contact'
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/cases",
     element: <Cases />
+  },
+  {
+    path: "/contact",
+    element:<Contact />
   }
 ])
 

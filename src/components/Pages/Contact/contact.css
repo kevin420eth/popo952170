@@ -1,0 +1,36 @@
+.contact__section{
+    text-align: center;
+}
+
+.contact__container{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.contact__ways{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__way__button{
+    height:50px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 2rem;
+    background-color: aqua;
+    padding:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__form__container{
+
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+
+}

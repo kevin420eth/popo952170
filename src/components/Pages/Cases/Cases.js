@@ -35,7 +35,7 @@ const Cases = () => {
 
       </section>
     </div>
-  )
-}
+      )
+    }
 
 export default Cases
