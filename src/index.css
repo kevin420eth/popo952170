@@ -99,7 +99,8 @@ img {
 
 /*========================================= Reuseable CSS Class ==========================================*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 0 100px;
+  text-align: center;
 }
 
 .section__title {

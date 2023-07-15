@@ -13,7 +13,7 @@ const Services = () => {
       <div className='banner__container'>
         <img src={banner} alt="" />
       </div>
-      <section className='services__section'>
+      <section className='services__section section'>
         <p className='services__section__title'>診療項目</p>
 
         <div className='services__container'>

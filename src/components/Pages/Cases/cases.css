@@ -1,11 +1,11 @@
 .cases__section {
-  text-align: center;
+
 }
 
 .cases__showcase__container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 8rem;
+
   gap:3rem;
   border:2px solid black;
 }

@@ -16,7 +16,7 @@ const Cases = () => {
       <div className='banner__container'>
         <img src={banner} alt="" />
       </div>
-      <section className='cases__section'>
+      <section className='cases__section section'>
         <p >案例回顧</p>
         <div className='cases__showcase__container'>
           <div className='case__showcase'>
