@@ -19,27 +19,27 @@ const Cases = () => {
       </header>
       <section className='cases__main__section section'>
         <div className='spotlight__container'>
-          <a href="https:google.com" className='main__spotlight__container shadow'>
+          <a href="https://google.com" className='main__spotlight__container shadow'>
             <img src={case_10} alt="" className='main__spotlight__imgae' />
           </a>
           <div className='sub__spotlight__container'>
-            <a href="https:google.com" className='sub__spotlight__flagment shadow'>
+            <a href="https://google.com" className='sub__spotlight__flagment shadow'>
               <img src={case_4} alt="" className='sub__spotlight__flagment__image' />
             </a>
-            <a href="https:google.com" className='sub__spotlight__flagment'>
+            <a href="https://google.com" className='sub__spotlight__flagment'>
               <img src={case_5} alt="" className='sub__spotlight__flagment__image' />
             </a>
           </div>
         </div>
       </section>
       <section className='cases__section section'>
-        <a href="https:google.com" className='model__container shadow'>
+        <a href="https://google.com" className='model__container shadow'>
           <img src={case_3} alt="" className='model__image' />
         </a>
-        <a href="https:google.com" className='model__container shadow'>
+        <a href="https://google.com" className='model__container shadow'>
           <img src={case_1} alt="" className='model__image' />
         </a>
-        <a href="https:google.com" className='model__container shadow'>
+        <a href="https://google.com" className='model__container shadow'>
           <img src={case_2} alt="" className='model__image' />
         </a>
       </section>
