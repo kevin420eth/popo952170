@@ -8,6 +8,7 @@
   --header-height: 3rem;
 
   /*========== Font and typography ==========*/
+
   --body-font: "Noto Sans TC", sans-serif;
 
   /*1rem = 16px ...*/
@@ -86,10 +87,10 @@ img {
 }
 
 /*========================================= Reuseable CSS Class ==========================================*/
+
 .section {
   text-align: center;
   padding: 0 100px;
-  margin-bottom: 2rem;
 }
 
 .section__title {
@@ -116,6 +117,10 @@ img {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.shadow {
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 /*============================================= Media Query =============================================*/
