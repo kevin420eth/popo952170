@@ -27,7 +27,7 @@ const Services = () => {
                   <p className='services__showcase__service__name'>{item.serviceName}</p>
                   <p className='services__showcase__short__description'>{item.serviceShortDescription}</p>
                 </div>
-                <a href={`/services/${item.route}`} className='services__showcase__button'>查看更多</a>
+                <button className='services__showcase__button'>查看更多</button>
               </a>
             )
           })}

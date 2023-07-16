@@ -54,7 +54,7 @@ const Cases = () => {
               <div className='education__blog__text__container'>
                 <p className='education__blog__title'>{item.title}</p>
               </div>
-              <a href="https://google.com" className='education__blog__button'>閱讀文章</a>
+              <button className='education__blog__button'>閱讀文章</button>
             </a>
           )
         })}
