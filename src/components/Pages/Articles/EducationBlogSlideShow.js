@@ -26,9 +26,9 @@ const EducationBlogSlideShow = () => {
                 {EducationData.map((item, key) => {
                     return (
                         <SwiperSlide className='education__blog__swiper__slider' key={key} >
-                            <div className='blog__article__image__container'>
+                            <a href={`/articles/${item.route}`} className='blog__article__image__container'>
                                 <img src={item.image} alt="" className='blog__article__image' />
-                            </div>
+                            </a>
                         </SwiperSlide>
                     )
                 })}

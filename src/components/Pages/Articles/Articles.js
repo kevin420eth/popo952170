@@ -19,14 +19,14 @@ const Articles = () => {
       </header>
       <section className='articles__main__section section'>
         <div className='spotlight__container'>
-          <a href="https://google.com" className='main__spotlight__container shadow'>
+          <a href="/articles/article_10" className='main__spotlight__container shadow'>
             <img src={case_10} alt="" className='main__spotlight__imgae' />
           </a>
           <div className='sub__spotlight__container'>
-            <a href="https://google.com" className='sub__spotlight__flagment shadow'>
+            <a href="/articles/article_4" className='sub__spotlight__flagment shadow'>
               <img src={case_4} alt="" className='sub__spotlight__flagment__image' />
             </a>
-            <a href="https://google.com" className='sub__spotlight__flagment'>
+            <a href="/articles/article_5" className='sub__spotlight__flagment'>
               <img src={case_5} alt="" className='sub__spotlight__flagment__image' />
             </a>
           </div>
@@ -36,13 +36,13 @@ const Articles = () => {
       <section className='articles__model__section section'>
         <h1 className='section__title'>案例分享</h1>
         <div className='articles__model__container'>
-          <a href="https://google.com" className='model__container shadow'>
+          <a href="/articles/article_3" className='model__container shadow'>
             <img src={case_3} alt="" className='model__image' />
           </a>
-          <a href="https://google.com" className='model__container shadow'>
+          <a href="/articles/article_1" className='model__container shadow'>
             <img src={case_1} alt="" className='model__image' />
           </a>
-          <a href="https://google.com" className='model__container shadow'>
+          <a href="/articles/article_2" className='model__container shadow'>
             <img src={case_2} alt="" className='model__image' />
           </a>
         </div>

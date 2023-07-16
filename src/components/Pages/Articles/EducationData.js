@@ -14,54 +14,63 @@ const EductionData = [
         description: "",
         image: education_0,
         content: "",
+        route:"dental-implantation"
     },
     {
         title: "什麼是一日齒雕?",
         description: "",
         image: education_1,
         content: "",
+        route:"cad-cam"
     },
     {
         title: "想做矯正可以不拔牙嗎?",
         description: "",
         image: education_2,
         content: "",
+        route:"teeth-adjusted"
     },
     {
         title: "真牙保留大作戰",
         description: "",
         image: education_3,
         content: "",
+        route:"fight"
     },
     {
         title: "水雷射可以取代翻瓣手術嗎?",
         description: "",
         image: education_4,
         content: "",
+        route:"laser"
     },
     {
         title: "補骨的骨粉有哪些種類呢?",
         description: "",
         image: education_5,
         content: "",
+        route:"bone"
     },
     {
         title: "年輕人也會有牙周病嗎?",
         description: "",
         image: education_6,
         content: "",
+        route:"periodontitis"
     },
     {
         title: "您知道牙齒會敏感，是因為牙齒已經磨損了嗎?",
         description: "",
         image: education_7,
         content: "",
+        route:"sensitive"
     },
     {
         title: "植牙可能不只要補骨，還要補肉",
         description: "",
         image: education_8,
         content: "",
+        route:"meat"
     }
 ]
 
