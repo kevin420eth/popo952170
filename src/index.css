@@ -96,9 +96,14 @@ img {
   margin-bottom: 50px;
 }
 
+.banner__container {
+  display: flex;
+  padding-top: 80px;
+}
+
 .section__title {
   color: rgb(0, 0, 0);
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
 }

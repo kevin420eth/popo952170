@@ -11,6 +11,7 @@ import Services from './components/Pages/Services/Services';
 import Service from './components/Pages/Services/Service/Service'
 import Environment from './components/Pages/Environment/Environment';
 import Articles from './components/Pages/Articles/Articles'
+import Article from './components/Pages/Articles/Article/Article';
 import Contact from './components/Pages/Contact/Contact'
 
 const router = createBrowserRouter([
@@ -44,8 +45,12 @@ const router = createBrowserRouter([
     element: <Articles />
   },
   {
+    path: "/articles/:article",
+    element: <Article />
+  },
+  {
     path: "/contact",
-    element:<Contact />
+    element: <Contact />
   }
 ])
 
