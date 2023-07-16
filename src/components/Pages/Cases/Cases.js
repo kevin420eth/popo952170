@@ -4,7 +4,6 @@ import Header from '../../Header/Header'
 import './cases.css'
 import EducationData from './EducationData'
 
-import case_0 from '../../../assets/case_0.png'
 import case_1 from '../../../assets/case_1.png'
 import case_2 from '../../../assets/case_2.png'
 import case_3 from '../../../assets/case_3.png'
