@@ -12,65 +12,65 @@ const EductionData = [
     {
         title: "植牙怎麼選",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_0,
-        content: "",
-        route:"dental-implantation"
+        route: "dental-implantation"
     },
     {
         title: "什麼是一日齒雕?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_1,
-        content: "",
-        route:"cad-cam"
+        route: "cad-cam"
     },
     {
         title: "想做矯正可以不拔牙嗎?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_2,
-        content: "",
-        route:"teeth-adjusted"
+        route: "teeth-adjusted"
     },
     {
         title: "真牙保留大作戰",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_3,
-        content: "",
-        route:"fight"
+        route: "fight"
     },
     {
         title: "水雷射可以取代翻瓣手術嗎?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_4,
-        content: "",
-        route:"laser"
+        route: "laser"
     },
     {
         title: "補骨的骨粉有哪些種類呢?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_5,
-        content: "",
-        route:"bone"
+        route: "bone"
     },
     {
         title: "年輕人也會有牙周病嗎?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_6,
-        content: "",
-        route:"periodontitis"
+        route: "periodontitis"
     },
     {
         title: "您知道牙齒會敏感，是因為牙齒已經磨損了嗎?",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_7,
-        content: "",
-        route:"sensitive"
+        route: "sensitive"
     },
     {
         title: "植牙可能不只要補骨，還要補肉",
         description: "",
+        content: "保持良好的牙齒護理習慣對於擁有健康笑容和全面的健康至關重要。堅持良好的口腔衛生習慣、定期牙科檢查和健康的生活方式選擇在促進口腔健康方面起著關鍵作用。本文將探討牙齒護理的重要性，並提供實用的建議，以確保明亮健康的笑容。",
         image: education_8,
-        content: "",
-        route:"meat"
+        route: "meat"
     }
 ]
 
