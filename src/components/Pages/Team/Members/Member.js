@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom'
 import './member.css'
 import Header from '../../../Header/Header'
 import _doctorData from '../doctorData'
@@ -8,7 +8,7 @@ import banner from '../../../../assets/banner.png'
 import { AiOutlineCheck } from 'react-icons/ai'
 
 const Member = () => {
-    const { doctorName } = useParams();
+    const { doctorName } = useParams()
     const doctorNamePool = ['johnnylin', 'johnnilin', 'linjohnny', 'linann', 'linpopo', 'linhathway', 'linpoki', 'linforest']
     const doctorIndex = doctorNamePool.indexOf(doctorName)
     const doctorData = _doctorData[doctorIndex]

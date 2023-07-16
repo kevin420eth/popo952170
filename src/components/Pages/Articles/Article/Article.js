@@ -1,9 +1,12 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import './article.css'
 import Header from '../../../Header/Header'
 import banner from '../../../../assets/banner.png'
 
 const Article = () => {
+    const {article} = useParams()
+
     return (
         <div>
             <header>
@@ -13,7 +16,7 @@ const Article = () => {
                 <img src={banner} alt="" className='banner__image'/>
             </div>
             <section className='article__section section'>
-                hi
+                {article}
             </section>
         </div>
     )
