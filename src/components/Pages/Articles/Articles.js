@@ -15,7 +15,7 @@ const Articles = () => {
   return (
     <div>
       <header>
-        <Header />
+        {/* <Header /> */}
       </header>
       <section className='articles__main__section section'>
         <div className='spotlight__container'>
@@ -32,31 +32,40 @@ const Articles = () => {
           </div>
         </div>
       </section>
+
       <section className='articles__model__section section'>
-        <a href="https://google.com" className='model__container shadow'>
-          <img src={case_3} alt="" className='model__image' />
-        </a>
-        <a href="https://google.com" className='model__container shadow'>
-          <img src={case_1} alt="" className='model__image' />
-        </a>
-        <a href="https://google.com" className='model__container shadow'>
-          <img src={case_2} alt="" className='model__image' />
-        </a>
+        <h1 className='section__title'>案例分享</h1>
+        <div className='articles__model__container'>
+          <a href="https://google.com" className='model__container shadow'>
+            <img src={case_3} alt="" className='model__image' />
+          </a>
+          <a href="https://google.com" className='model__container shadow'>
+            <img src={case_1} alt="" className='model__image' />
+          </a>
+          <a href="https://google.com" className='model__container shadow'>
+            <img src={case_2} alt="" className='model__image' />
+          </a>
+        </div>
+
       </section>
+
       <section className='articles__education__section section'>
-        {EducationData.map((item, key) => {
-          return (
-            <a href="https://google.com" className='education__blog__showcase shadow' key={key}>
-              <div className='education__blog__image__container'>
-                <img src={item.image} alt="" className='education__blog__image' />
-              </div>
-              <div className='education__blog__text__container'>
-                <p className='education__blog__title'>{item.title}</p>
-              </div>
-              <button className='education__blog__button'>閱讀文章</button>
-            </a>
-          )
-        })}
+      <h1 className='section__title'>精選文章</h1>
+        <div className='article__education__container'>
+          {/* {EducationData.map((item, key) => {
+            return (
+              <a href="https://google.com" className='education__blog__showcase shadow' key={key}>
+                <div className='education__blog__image__container'>
+                  <img src={item.image} alt="" className='education__blog__image' />
+                </div>
+                <div className='education__blog__text__container'>
+                  <p className='education__blog__title'>{item.title}</p>
+                </div>
+                <button className='education__blog__button'>閱讀文章</button>
+              </a>
+            )
+          })} */}
+        </div>
       </section>
     </div>
   )
