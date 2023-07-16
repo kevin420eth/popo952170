@@ -14,7 +14,7 @@ const Services = () => {
         <img src={banner} alt="" />
       </div>
       <section className='services__section section'>
-        <p className='services__section__title'>診療項目</p>
+        <p className='section__title'>診療項目</p>
 
         <div className='services__container'>
           {serviceData.map((item, key) => {

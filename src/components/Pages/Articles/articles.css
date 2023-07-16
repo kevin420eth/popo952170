@@ -1,4 +1,4 @@
-.cases__main__section {
+.articles__main__section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-.cases__model__section {
+.articles__model__section {
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@
   object-fit: cover;
 }
 
-.cases__education__section {
+.articles__education__section {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -72,6 +72,7 @@
 }
 
 .education__blog__showcase {
+  background-color: rgb(230, 230, 230);
   border-radius: 1rem;
   height: 400px;
   overflow: hidden;
@@ -79,7 +80,7 @@
 }
 
 .education__blog__showcase:hover {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(210, 210, 210);
 }
 
 .education__blog__image__container {

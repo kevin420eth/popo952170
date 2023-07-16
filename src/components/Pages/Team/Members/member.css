@@ -1,31 +1,26 @@
-.profile__container {
+.profile__section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.doctor__name {
-  text-align: center;
-  font-size: 1.75rem;
-}
-
-.profile__section {
-  padding: 20px 100px 0 100px;
+.profile__container {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 2rem;
 }
 
 .profile__preview {
   width: 30%;
-  margin-right: 5rem;
+  margin-right: 100px;
 }
 
 .profile__photo {
   width: 100%;
-  height: 75%;
+  height: 100%;
   border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
@@ -37,7 +32,12 @@
   object-fit: cover;
 }
 
-.education {
+.profile__text {
+  text-align: start;
+}
+
+.education__container,
+.major__treatment__container {
   margin-bottom: 2rem;
 }
 
@@ -46,11 +46,14 @@
   list-style: inside;
 }
 
+/*---------- Time Shift ----------*/
+
 .time__shift__title {
   margin-bottom: 2rem;
 }
 
 .timetable {
+  background-color: rgb(255, 255, 255);
   width: 75%;
   border-collapse: collapse;
   border-radius: 1.5rem;
@@ -75,8 +78,4 @@
 
 .time__shift__slot {
   color: rgb(0, 185, 0);
-}
-
-.timetable th {
-  background-color: #f2f2f2;
 }

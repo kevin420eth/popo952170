@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Header/Header'
 
-import './cases.css'
+import './articles.css'
 import EducationData from './EducationData'
 
 import case_1 from '../../../assets/case_1.png'
@@ -11,13 +11,13 @@ import case_4 from '../../../assets/case_4.png'
 import case_5 from '../../../assets/case_5.png'
 import case_10 from '../../../assets/case_10.png'
 
-const Cases = () => {
+const Articles = () => {
   return (
     <div>
       <header>
         <Header />
       </header>
-      <section className='cases__main__section section'>
+      <section className='articles__main__section section'>
         <div className='spotlight__container'>
           <a href="https://google.com" className='main__spotlight__container shadow'>
             <img src={case_10} alt="" className='main__spotlight__imgae' />
@@ -32,7 +32,7 @@ const Cases = () => {
           </div>
         </div>
       </section>
-      <section className='cases__model__section section'>
+      <section className='articles__model__section section'>
         <a href="https://google.com" className='model__container shadow'>
           <img src={case_3} alt="" className='model__image' />
         </a>
@@ -43,7 +43,7 @@ const Cases = () => {
           <img src={case_2} alt="" className='model__image' />
         </a>
       </section>
-      <section className='cases__education__section section'>
+      <section className='articles__education__section section'>
         {EducationData.map((item, key) => {
           return (
             <a href="https://google.com" className='education__blog__showcase shadow' key={key}>
@@ -62,4 +62,4 @@ const Cases = () => {
   )
 }
 
-export default Cases
+export default Articles

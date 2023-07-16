@@ -48,8 +48,8 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className='nav__item'>
-                    <Link to='/cases' className='nav__link'>
-                        案例回顧
+                    <Link to='/articles' className='nav__link'>
+                        相關文章
                     </Link>
                 </li>
                 <li className='nav__item'>

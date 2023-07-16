@@ -16,7 +16,7 @@ const Team = () => {
                 <img src={banner} alt="" />
             </div>
             <section className='team__section section'>
-                <p className='team__section__title'>醫療團隊</p>
+                <p className='section__title'>醫療團隊</p>
                 <div className='team__profile__section'>
                     {doctorData.map((item, key) => {
                         return (

@@ -21,16 +21,16 @@ const Member = () => {
             <div className='banner__container'>
                 <img src={banner} alt="" />
             </div>
-            <div className='profile__container'>
-                <p className='doctor__name'>{doctorData.name} {doctorData.title}</p>
-                <section className='profile__section'>
+            <section className='profile__section section'>
+                <p className='section__title'>{doctorData.name} {doctorData.title}</p>
+                <div className='profile__container'>
                     <div className='profile__preview'>
                         <div className='profile__photo'>
                             <img src={doctorData.profilePhoto} alt={doctorData.name} />
                         </div>
                     </div>
                     <div className='profile__text'>
-                        <div className='education'>
+                        <div className='education__container'>
                             <p className='education__title'>學經歷</p>
                             <ul className='education__list'>
                                 {doctorData.education.map((education, key) => {
@@ -40,7 +40,7 @@ const Member = () => {
                                 })}
                             </ul>
                         </div>
-                        <div className='major__treatment'>
+                        <div className='major__treatment__container'>
                             <p className='major__treatment__title'>主治項目</p>
                             <ul className='major__treatment__list'>
                                 {doctorData.majorTreatment.map((major, key) => {
@@ -51,8 +51,9 @@ const Member = () => {
                             </ul>
                         </div>
                     </div>
-                </section>
-                <p className='time__shift__title'>看診時間</p>
+                </div>
+
+                <p className='time__shift__title section__title'>看診時間</p>
                 <table class="timetable">
                     <tr>
                         <th>時間</th>
@@ -91,7 +92,7 @@ const Member = () => {
                         <td className='time__shift__slot'><AiOutlineCheck /></td>
                     </tr>
                 </table>
-            </div>
+            </section>
         </div>
     )
 }
