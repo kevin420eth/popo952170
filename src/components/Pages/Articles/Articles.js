@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../Header/Header'
+import EducationBlogSlideShow from './EducationBlogSlideShow'
 
 import './articles.css'
-import EducationData from './EducationData'
 
 import case_1 from '../../../assets/case_1.png'
 import case_2 from '../../../assets/case_2.png'
@@ -15,7 +15,7 @@ const Articles = () => {
   return (
     <div>
       <header>
-        {/* <Header /> */}
+        <Header />
       </header>
       <section className='articles__main__section section'>
         <div className='spotlight__container'>
@@ -50,21 +50,9 @@ const Articles = () => {
       </section>
 
       <section className='articles__education__section section'>
-      <h1 className='section__title'>精選文章</h1>
+        <h1 className='section__title'>精選文章</h1>
         <div className='article__education__container'>
-          {/* {EducationData.map((item, key) => {
-            return (
-              <a href="https://google.com" className='education__blog__showcase shadow' key={key}>
-                <div className='education__blog__image__container'>
-                  <img src={item.image} alt="" className='education__blog__image' />
-                </div>
-                <div className='education__blog__text__container'>
-                  <p className='education__blog__title'>{item.title}</p>
-                </div>
-                <button className='education__blog__button'>閱讀文章</button>
-              </a>
-            )
-          })} */}
+          <EducationBlogSlideShow />
         </div>
       </section>
     </div>

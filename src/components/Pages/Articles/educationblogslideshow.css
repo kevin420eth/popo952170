@@ -1,0 +1,14 @@
+.education__blog__swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  border: 2px solid blue;
+  text-align: center;
+  font-size: 18px;
+  height: calc((100% - 30px) / 2) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
