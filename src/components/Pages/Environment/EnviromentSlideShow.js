@@ -27,7 +27,7 @@ const EnviromentSlideShow = () => {
             className='enviroment__swiper'
             navigation={true}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
             centeredSlides={true}
             modules={[Autoplay, Pagination, Navigation]}
             spaceBetween={30}

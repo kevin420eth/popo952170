@@ -67,19 +67,17 @@
 }
 
 .articles__education__section {
-  border:2px solid red;
-  height: 100vh;
+  height: calc((100vh - 80px));
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px;
 }
 
 .article__education__container {
   width: 100%;
-  height: 100%;
-  border:2px solid black;
+  height:458px;
 }
 
+/* 
 .education__blog__showcase {
   background-color: rgb(230, 230, 230);
   border-radius: 1rem;
@@ -123,4 +121,4 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
+} */
