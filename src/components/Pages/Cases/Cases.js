@@ -32,7 +32,7 @@ const Cases = () => {
           </div>
         </div>
       </section>
-      <section className='cases__section section'>
+      <section className='cases__model__section section'>
         <a href="https://google.com" className='model__container shadow'>
           <img src={case_3} alt="" className='model__image' />
         </a>
@@ -42,6 +42,18 @@ const Cases = () => {
         <a href="https://google.com" className='model__container shadow'>
           <img src={case_2} alt="" className='model__image' />
         </a>
+      </section>
+      <section className='cases__education__section section'>
+        <div className='education__blog__showcase shadow'>
+          <div className='education__blog__image__container'>
+            <img src="" alt="" className='education__blog__image'/>
+          </div>
+        </div>
+        <div className='education__blog__showcase shadow'>1</div>
+        <div className='education__blog__showcase shadow'>1</div>
+        <div className='education__blog__showcase shadow'>1</div>
+        <div className='education__blog__showcase shadow'>1</div>
+        <div className='education__blog__showcase shadow'>1</div>
       </section>
     </div>
   )

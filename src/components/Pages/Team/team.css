@@ -1,4 +1,4 @@
-.banner__container{
+.banner__container {
   padding-top: 80px;
 }
 
@@ -11,14 +11,14 @@
 }
 
 .team__profile__section {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .doctor__profile__preview {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

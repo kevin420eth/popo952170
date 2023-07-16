@@ -15,7 +15,7 @@
 }
 
 .main__spotlight__container {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   width: 65%;
   overflow: hidden;
 }
@@ -34,7 +34,7 @@
 }
 
 .sub__spotlight__flagment {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   overflow: hidden;
 }
 
@@ -44,7 +44,7 @@
   object-fit: cover;
 }
 
-.cases__section {
+.cases__model__section {
   border: 2px solid blue;
   height: 100vh;
   display: flex;
@@ -53,7 +53,7 @@
 }
 
 .model__container {
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   width: 30%;
   height: 80%;
   overflow: hidden;
@@ -63,4 +63,19 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.cases__education__section {
+  border: 2px solid blue;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-top: 4rem;
+}
+
+.education__blog__showcase {
+  border: 2px solid black;
+  height: 300px;
+  border-radius: 1.5rem;
 }

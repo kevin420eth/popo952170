@@ -21,7 +21,7 @@
 
 .article__content__container {
   border: 2px solid rgb(150, 150, 150);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   width: 400px;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -44,7 +44,7 @@
 
 .article__content__title {
   margin-top: 1rem;
-  padding:0 1rem
+  padding: 0 1rem;
 }
 
 .article__content__text {
