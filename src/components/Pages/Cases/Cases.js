@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../Header/Header'
 
 import './cases.css'
+import EducationData from './EducationData'
 
 import case_0 from '../../../assets/case_0.png'
 import case_1 from '../../../assets/case_1.png'
@@ -44,16 +45,19 @@ const Cases = () => {
         </a>
       </section>
       <section className='cases__education__section section'>
-        <div className='education__blog__showcase shadow'>
-          <div className='education__blog__image__container'>
-            <img src="" alt="" className='education__blog__image'/>
-          </div>
-        </div>
-        <div className='education__blog__showcase shadow'>1</div>
-        <div className='education__blog__showcase shadow'>1</div>
-        <div className='education__blog__showcase shadow'>1</div>
-        <div className='education__blog__showcase shadow'>1</div>
-        <div className='education__blog__showcase shadow'>1</div>
+        {EducationData.map((item, key) => {
+          return (
+            <a href="https://google.com" className='education__blog__showcase shadow' key={key}>
+              <div className='education__blog__image__container'>
+                <img src={item.image} alt="" className='education__blog__image' />
+              </div>
+              <div className='education__blog__text__container'>
+                <p className='education__blog__title'>{item.title}</p>
+              </div>
+              <a href="https://google.com" className='education__blog__button'>閱讀文章</a>
+            </a>
+          )
+        })}
       </section>
     </div>
   )
