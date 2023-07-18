@@ -14,7 +14,7 @@ import Articles from './components/Pages/Articles/Articles'
 import Article from './components/Pages/Articles/Article/Article';
 import Contact from './components/Pages/Contact/Contact'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
