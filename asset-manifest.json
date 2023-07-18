@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/popo952170/static/css/main.c83ab5d1.css",
-    "main.js": "/popo952170/static/js/main.67150fce.js",
+    "main.css": "/popo952170/static/css/main.a842b850.css",
+    "main.js": "/popo952170/static/js/main.35162d87.js",
     "static/media/video.mp4": "/popo952170/static/media/video.76e85e6e1e2e09d4381f.mp4",
-    "static/media/equipment_background.png": "/popo952170/static/media/equipment_background.355cc4fd2a873c769979.png",
     "static/media/case_2.png": "/popo952170/static/media/case_2.31c1fd8cc5705f1a4b08.png",
     "static/media/case_1.png": "/popo952170/static/media/case_1.fdadbbde486b485e95a7.png",
     "static/media/service_2.png": "/popo952170/static/media/service_2.7b048e586ddfaa2b251e.png",
@@ -58,11 +57,11 @@
     "static/media/logo.png": "/popo952170/static/media/logo.96d9a7c9a3d7956bedc1.png",
     "static/media/line_qrcode.png": "/popo952170/static/media/line_qrcode.1c76d670e63b7b896676.png",
     "index.html": "/popo952170/index.html",
-    "main.c83ab5d1.css.map": "/popo952170/static/css/main.c83ab5d1.css.map",
-    "main.67150fce.js.map": "/popo952170/static/js/main.67150fce.js.map"
+    "main.a842b850.css.map": "/popo952170/static/css/main.a842b850.css.map",
+    "main.35162d87.js.map": "/popo952170/static/js/main.35162d87.js.map"
   },
   "entrypoints": [
-    "static/css/main.c83ab5d1.css",
-    "static/js/main.67150fce.js"
+    "static/css/main.a842b850.css",
+    "static/js/main.35162d87.js"
   ]
 }
