@@ -65,6 +65,11 @@ body {
   /* background-color: #f9f4ee; */
   /* background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% ); */
   background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4645&q=80");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: rgb(0, 0, 0);
 }
 
@@ -91,14 +96,21 @@ img {
 /*========================================= Reuseable CSS Class ==========================================*/
 
 .section {
+  background-color: #ffffffbf;
   text-align: center;
-  padding: 0 100px;
-  margin-bottom: 50px;
+  padding: 0 100px 100px;
 }
 
 .banner__container {
   display: flex;
   padding-top: 80px;
+  background-color: #ffffffbf;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section__title {
@@ -112,19 +124,6 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-}
-
-.section__title,
-.section__subtitle {
-  text-align: center;
-}
-
-/*=============== Layout ===============*/
-
-.container {
-  max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .shadow {
