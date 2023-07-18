@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/popo952170/static/css/main.b7391fa5.css",
-    "main.js": "/popo952170/static/js/main.76fc1da9.js",
+    "main.css": "/popo952170/static/css/main.820891f0.css",
+    "main.js": "/popo952170/static/js/main.3a969f36.js",
     "static/media/video.mp4": "/popo952170/static/media/video.76e85e6e1e2e09d4381f.mp4",
     "static/media/equipment_background.png": "/popo952170/static/media/equipment_background.355cc4fd2a873c769979.png",
     "static/media/case_2.png": "/popo952170/static/media/case_2.31c1fd8cc5705f1a4b08.png",
@@ -58,11 +58,11 @@
     "static/media/logo.png": "/popo952170/static/media/logo.96d9a7c9a3d7956bedc1.png",
     "static/media/line_qrcode.png": "/popo952170/static/media/line_qrcode.1c76d670e63b7b896676.png",
     "index.html": "/popo952170/index.html",
-    "main.b7391fa5.css.map": "/popo952170/static/css/main.b7391fa5.css.map",
-    "main.76fc1da9.js.map": "/popo952170/static/js/main.76fc1da9.js.map"
+    "main.820891f0.css.map": "/popo952170/static/css/main.820891f0.css.map",
+    "main.3a969f36.js.map": "/popo952170/static/js/main.3a969f36.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7391fa5.css",
-    "static/js/main.76fc1da9.js"
+    "static/css/main.820891f0.css",
+    "static/js/main.3a969f36.js"
   ]
 }
