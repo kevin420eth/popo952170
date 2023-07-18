@@ -13,7 +13,7 @@ const Environment = () => {
             <div className='banner__container'>
                 <img src={banner} alt="" />
             </div>
-            <section className='enviroment__section section '>
+            <section className='enviroment__section section'>
                 <p className='section__title'>診所環境</p>
                 <EnviromentSlideShow />
             </section>

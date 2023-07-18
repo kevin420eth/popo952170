@@ -13,13 +13,13 @@ const Services = () => {
       <div className='banner__container'>
         <img src={banner} alt="" />
       </div>
-      <section className='services__section section '>
+      <section className='services__section section'>
         <p className='section__title'>診療項目</p>
 
         <div className='services__container'>
           {serviceData.map((item, key) => {
             return (
-              <a href={`/popo952170/#/services/${item.route}`} className='services__showcase' key={key}>
+              <a href={`/services/${item.route}`} className='services__showcase' key={key}>
                 <div className='services__showcase__image__container'>
                   <img src={item.serviceImage} alt="" className='services__showcase__image' />
                 </div>

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .spotlight__container {
@@ -44,19 +44,18 @@
 }
 
 .articles__model__section {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .articles__model__container {
-  height: 460px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  height: 75%;
 }
 
 .model__container {
   border-radius: 1.5rem;
-  width: 100%;
+  width: 30%;
   height: 100%;
   overflow: hidden;
 }
@@ -68,12 +67,58 @@
 }
 
 .articles__education__section {
-  height:100vh;
+  height: calc((100vh - 80px));
   display: flex;
   flex-direction: column;
 }
 
 .article__education__container {
   width: 100%;
-  height:100%;
+  height:458px;
 }
+
+/* 
+.education__blog__showcase {
+  background-color: rgb(230, 230, 230);
+  border-radius: 1rem;
+  height: 400px;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+.education__blog__showcase:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.education__blog__image__container {
+  height: 65%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.education__blog__image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.education__blog__text__container {
+  height: 4rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.education__blog__button {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+} */

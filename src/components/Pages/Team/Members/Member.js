@@ -21,7 +21,7 @@ const Member = () => {
             <div className='banner__container'>
                 <img src={banner} alt="" />
             </div>
-            <section className='profile__section section '>
+            <section className='profile__section section'>
                 <p className='section__title'>{doctorData.name} {doctorData.title}</p>
                 <div className='profile__container'>
                     <div className='profile__preview'>
