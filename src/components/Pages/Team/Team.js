@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import './team.css'
 
 import Header from '../../Header/Header'
@@ -20,13 +21,13 @@ const Team = () => {
                 <div className='team__profile__section'>
                     {doctorData.map((item, key) => {
                         return (
-                            <a href={`/team/${item.route}`} className='doctor__profile__preview' key={key}>
+                            <Link to={`/team/${item.route}`} className='doctor__profile__preview' key={key}>
                                 <div className='doctor__photo__preview'>
                                     <img src={item.profilePhoto} alt="" />
                                 </div>
                                 <p className='doctor__name'>{item.name} {item.title}</p>
                                 <p className='major__skill'>{item.majorTreatment[0]}</p>
-                            </a>
+                            </Link>
                         )
                     })}
                 </div>

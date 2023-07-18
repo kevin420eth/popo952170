@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Navigation, Autoplay, Grid } from 'swiper/modules'
 
@@ -26,9 +27,9 @@ const EducationBlogSlideShow = () => {
                 {EducationData.map((item, key) => {
                     return (
                         <SwiperSlide className='education__blog__swiper__slider' key={key} >
-                            <a href={`/articles/${item.route}`} className='blog__article__image__container'>
+                            <Link to={`/articles/${item.route}`} className='blog__article__image__container'>
                                 <img src={item.image} alt="" className='blog__article__image' />
-                            </a>
+                            </Link>
                         </SwiperSlide>
                     )
                 })}
