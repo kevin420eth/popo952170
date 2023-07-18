@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './services.css'
 import Header from '../../Header/Header'
 import banner from '../../../assets/banner.png'
@@ -19,7 +20,7 @@ const Services = () => {
         <div className='services__container'>
           {serviceData.map((item, key) => {
             return (
-              <a href={`/popo952170/#/services/${item.route}`} className='services__showcase' key={key}>
+              <Link to={`/services/${item.route}`} className='services__showcase' key={key}>
                 <div className='services__showcase__image__container'>
                   <img src={item.serviceImage} alt="" className='services__showcase__image' />
                 </div>
@@ -28,7 +29,7 @@ const Services = () => {
                   <p className='services__showcase__short__description'>{item.serviceShortDescription}</p>
                 </div>
                 <button className='services__showcase__button'>查看更多</button>
-              </a>
+              </Link>
             )
           })}
         </div>
