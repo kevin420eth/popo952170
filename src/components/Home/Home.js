@@ -2,7 +2,8 @@ import React from 'react'
 import './home.css'
 
 import Header from '../Header/Header'
-import Main from './Main/Main'
+import Landing from './Landing/Landing'
+import About from './About/About'
 import Appointment from './Appointment/Appointment'
 import Equipment from './Equipment/Equipment'
 import Services from './Services/Services'
@@ -15,7 +16,8 @@ const Home = () => {
                 <Header />
             </header>
             <main>
-                <Main />
+                <Landing />
+                <About />
                 <Appointment />
                 <Equipment />
                 <Services />

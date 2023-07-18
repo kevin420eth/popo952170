@@ -1,8 +1,8 @@
 import React from 'react'
-import './main.css'
+import './landing.css'
 import video from '../../../assets/video.mp4'
 
-const Main = () => {
+const Landing = () => {
   return (
     <section className='home__section section'>
       <div className='video__container'>
@@ -13,4 +13,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Landing
