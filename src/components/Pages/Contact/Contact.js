@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='banner__container'>
         <img src={banner} alt="" />
       </div>
-      <section className='contact__section section'>
+      <section className='contact__section section '>
         <h1 className='section__title'>立即預約</h1>
         <div className='contact__container'>
           <div className='contact__information__container'>

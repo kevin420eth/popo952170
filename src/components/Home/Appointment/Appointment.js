@@ -4,7 +4,7 @@ import './appointment.css'
 
 const Appointment = () => {
     return (
-        <section className='appointment__section'>
+        <section className='appointment__section section'>
             <div className='image__container'>
                 {/* <img src={image} alt="appointment" /> */}
             </div>

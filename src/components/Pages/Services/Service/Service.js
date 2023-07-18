@@ -19,7 +19,7 @@ const Service = () => {
       <div className='banner__container'>
         <img src={banner} alt="" />
       </div>
-      <section className='service__section section'>
+      <section className='service__section section '>
         <h1 className='section__title'>{serviceData.serviceName}</h1>
         <div className='service__container'>
           <div className='service__image__container'>
