@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/popo952170/static/css/main.6085e307.css",
-    "main.js": "/popo952170/static/js/main.f1b6339f.js",
+    "main.css": "/popo952170/static/css/main.e913fbcd.css",
+    "main.js": "/popo952170/static/js/main.bd5c8ffc.js",
     "static/media/video.mp4": "/popo952170/static/media/video.76e85e6e1e2e09d4381f.mp4",
     "static/media/case_2.png": "/popo952170/static/media/case_2.31c1fd8cc5705f1a4b08.png",
     "static/media/case_1.png": "/popo952170/static/media/case_1.fdadbbde486b485e95a7.png",
@@ -38,6 +38,7 @@
     "static/media/doctor_1.png": "/popo952170/static/media/doctor_1.ec1dde5f52e3e2057da9.png",
     "static/media/service_9.png": "/popo952170/static/media/service_9.97f02c3cdc94f1ac7256.png",
     "static/media/service_4.png": "/popo952170/static/media/service_4.f71b202ec393abe260c4.png",
+    "static/media/about.png": "/popo952170/static/media/about.6e62ae65dd78e4865b8d.png",
     "static/media/service_5.png": "/popo952170/static/media/service_5.d08dc1824e1aafb507ff.png",
     "static/media/education_6.png": "/popo952170/static/media/education_6.3bbe2b54cf6c212257df.png",
     "static/media/service_3.png": "/popo952170/static/media/service_3.e4e6cc550916ba671b6d.png",
@@ -57,11 +58,11 @@
     "static/media/logo.png": "/popo952170/static/media/logo.96d9a7c9a3d7956bedc1.png",
     "static/media/line_qrcode.png": "/popo952170/static/media/line_qrcode.1c76d670e63b7b896676.png",
     "index.html": "/popo952170/index.html",
-    "main.6085e307.css.map": "/popo952170/static/css/main.6085e307.css.map",
-    "main.f1b6339f.js.map": "/popo952170/static/js/main.f1b6339f.js.map"
+    "main.e913fbcd.css.map": "/popo952170/static/css/main.e913fbcd.css.map",
+    "main.bd5c8ffc.js.map": "/popo952170/static/js/main.bd5c8ffc.js.map"
   },
   "entrypoints": [
-    "static/css/main.6085e307.css",
-    "static/js/main.f1b6339f.js"
+    "static/css/main.e913fbcd.css",
+    "static/js/main.bd5c8ffc.js"
   ]
 }
