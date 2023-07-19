@@ -6,9 +6,8 @@ const Landing = () => {
   return (
     <section className='home__section section'>
       <div className='video__container'>
-        <video src={video} width='500' height='300' autoplay='true' loop muted></video>
+        <video src={video} width='500' height='300' autoPlay={true} loop muted></video>
       </div>
-
     </section>
   )
 }
