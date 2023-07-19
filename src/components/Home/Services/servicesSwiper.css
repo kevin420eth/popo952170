@@ -1,0 +1,21 @@
+.home__services__swiper {
+  border: 2px solid rgb(255, 0, 0);
+  width: 100%;
+  padding: 50px 0 50px;
+  --swiper-navigation-size: 80px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--swiper-theme-color);
+}
+
+.home__services__slide {
+  border-radius: 2rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.home__services__slide img {
+  display: block;
+  width: 100%;
+}

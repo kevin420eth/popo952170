@@ -32,8 +32,6 @@ const EnviromentSlideShow = () => {
             modules={[Autoplay, Pagination, Navigation]}
             spaceBetween={30}
             slidesPerView={1}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
         >
             <SwiperSlide><img src={enviroment_0} alt="" /></SwiperSlide>
             <SwiperSlide><img src={enviroment_1} alt="" /></SwiperSlide>
