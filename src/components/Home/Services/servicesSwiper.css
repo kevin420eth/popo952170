@@ -1,5 +1,4 @@
 .home__services__swiper {
-  border: 2px solid rgb(162, 91, 91);
   width: 100%;
   padding-bottom: 50px;
   --swiper-navigation-size: 80px;
@@ -15,10 +14,10 @@
   overflow: hidden;
 }
 
-/* .home__services__slide img {
+.home__services__slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border:2px solid black;
-} */
+}
+

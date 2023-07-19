@@ -4,6 +4,12 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/module
 
 import servicesData from '../../../data/servicesData'
 
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+import './servicesSwiper.css'
+
 const ServicesSwiper = () => {
     return (
         <Swiper
@@ -26,7 +32,7 @@ const ServicesSwiper = () => {
         >
             {servicesData.map((item, key) => {
                 return (
-                    <SwiperSlide className='home__services__slide shadow' key={key}>
+                    <SwiperSlide className='home__services__slide shadow 646' key={key}>
                         <img src={item.serviceImage} alt={item.serviceName} />
                     </SwiperSlide>
                 )
