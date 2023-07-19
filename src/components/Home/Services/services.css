@@ -1,4 +1,8 @@
 .home__services__section {
-  min-height: 100vh;
-  padding-top: 80px;
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+.home__sevices__container{
+  height:100%;
 }

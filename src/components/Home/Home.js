@@ -19,8 +19,8 @@ const Home = () => {
                 <Landing />
                 <About />
                 <Appointment />
-                <Equipment />
                 <Services />
+                <Equipment />
             </main>
             <footer>
                 <Footer />
