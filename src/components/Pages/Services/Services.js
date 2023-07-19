@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import './services.css'
 import Header from '../../Header/Header'
 import banner from '../../../assets/banner.png'
-import serviceData from './servicesData'
+import servicesData from '../../../data/servicesData'
 
 const Services = () => {
   return (
@@ -18,7 +18,7 @@ const Services = () => {
         <p className='section__title'>診療項目</p>
 
         <div className='services__container'>
-          {serviceData.map((item, key) => {
+          {servicesData.map((item, key) => {
             return (
               <Link to={`/services/${item.route}`} className='services__showcase' key={key}>
                 <div className='services__showcase__image__container'>

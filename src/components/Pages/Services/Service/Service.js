@@ -3,7 +3,7 @@ import './service.css'
 import Header from '../../../Header/Header'
 import banner from '../../../../assets/banner.png'
 import { useParams } from 'react-router-dom'
-import _servicesData from '../servicesData'
+import _servicesData from '../../../../data/servicesData'
 
 const Service = () => {
   const { serviceName } = useParams();

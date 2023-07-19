@@ -5,7 +5,7 @@ import Header from '../../../Header/Header'
 import ErrorPage from '../../Error/Error'
 
 import banner from '../../../../assets/banner.png'
-import EductionData from '../EducationData'
+import EductionData from '../../../../data/EducationData'
 
 import './article.css'
 

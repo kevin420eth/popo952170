@@ -1,12 +1,12 @@
-import education_0 from '../../../assets/education_0.png'
-import education_1 from '../../../assets/education_1.png'
-import education_2 from '../../../assets/education_2.png'
-import education_3 from '../../../assets/education_3.png'
-import education_4 from '../../../assets/education_4.png'
-import education_5 from '../../../assets/education_5.png'
-import education_6 from '../../../assets/education_6.png'
-import education_7 from '../../../assets/education_7.png'
-import education_8 from '../../../assets/education_8.png'
+import education_0 from '../assets/education_0.png'
+import education_1 from '../assets/education_1.png'
+import education_2 from '../assets/education_2.png'
+import education_3 from '../assets/education_3.png'
+import education_4 from '../assets/education_4.png'
+import education_5 from '../assets/education_5.png'
+import education_6 from '../assets/education_6.png'
+import education_7 from '../assets/education_7.png'
+import education_8 from '../assets/education_8.png'
 
 const EductionData = [
     {

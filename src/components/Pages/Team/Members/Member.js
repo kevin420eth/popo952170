@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import './member.css'
 import Header from '../../../Header/Header'
-import _doctorData from '../doctorData'
+import _doctorData from '../../../../data/doctorData'
 import banner from '../../../../assets/banner.png'
 
 import { AiOutlineCheck } from 'react-icons/ai'

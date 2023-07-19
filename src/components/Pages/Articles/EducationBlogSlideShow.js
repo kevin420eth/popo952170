@@ -9,7 +9,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import './educationblogslideshow.css'
 
-import EducationData from './EducationData'
+import EducationData from '../../../data/EducationData'
 
 const EducationBlogSlideShow = () => {
     return (

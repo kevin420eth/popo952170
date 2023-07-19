@@ -1,13 +1,14 @@
-import service_1 from '../../../assets/service_1.png'
-import service_2 from '../../../assets/service_2.png'
-import service_3 from '../../../assets/service_3.png'
-import service_4 from '../../../assets/service_4.png'
-import service_5 from '../../../assets/service_5.png'
-import service_6 from '../../../assets/service_6.png'
-import service_7 from '../../../assets/service_7.png'
-import service_8 from '../../../assets/service_8.png'
-import service_9 from '../../../assets/service_9.png'
-import service_10 from '../../../assets/service_10.png'
+import service_1 from '../assets/service_1.png'
+import service_2 from '../assets/service_2.png'
+import service_3 from '../assets/service_3.png'
+import service_4 from '../assets/service_4.png'
+import service_5 from '../assets/service_5.png'
+import service_6 from '../assets/service_6.png'
+import service_7 from '../assets/service_7.png'
+import service_8 from '../assets/service_8.png'
+import service_9 from '../assets/service_9.png'
+import service_10 from '../assets/service_10.png'
+
 
 const servicesData = [
     {

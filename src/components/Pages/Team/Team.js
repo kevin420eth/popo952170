@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import './team.css'
 
 import Header from '../../Header/Header'
-import doctorData from './doctorData'
+import doctorData from '../../../data/doctorData'
 
 import banner from '../../../assets/banner.png'
 
