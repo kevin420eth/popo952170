@@ -5,7 +5,7 @@ import Header from '../Header/Header'
 import Landing from './Landing/Landing'
 import About from './About/About'
 import Appointment from './Appointment/Appointment'
-import Equipment from './Equipment/Equipment'
+import Enviroment from './Enviroment/Enviroment'
 import Services from './Services/Services'
 import Footer from '../Footer/Footer'
 
@@ -20,7 +20,7 @@ const Home = () => {
                 <About />
                 <Appointment />
                 <Services />
-                <Equipment />
+                <Enviroment />
             </main>
             <footer>
                 <Footer />
