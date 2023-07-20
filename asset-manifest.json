@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/popo952170/static/css/main.d43fa7da.css",
-    "main.js": "/popo952170/static/js/main.0cf6bf14.js",
+    "main.css": "/popo952170/static/css/main.bf66c05b.css",
+    "main.js": "/popo952170/static/js/main.1870c515.js",
     "static/media/video.mp4": "/popo952170/static/media/video.76e85e6e1e2e09d4381f.mp4",
     "static/media/case_2.png": "/popo952170/static/media/case_2.31c1fd8cc5705f1a4b08.png",
     "static/media/case_1.png": "/popo952170/static/media/case_1.fdadbbde486b485e95a7.png",
@@ -58,11 +58,11 @@
     "static/media/logo.png": "/popo952170/static/media/logo.96d9a7c9a3d7956bedc1.png",
     "static/media/line_qrcode.png": "/popo952170/static/media/line_qrcode.1c76d670e63b7b896676.png",
     "index.html": "/popo952170/index.html",
-    "main.d43fa7da.css.map": "/popo952170/static/css/main.d43fa7da.css.map",
-    "main.0cf6bf14.js.map": "/popo952170/static/js/main.0cf6bf14.js.map"
+    "main.bf66c05b.css.map": "/popo952170/static/css/main.bf66c05b.css.map",
+    "main.1870c515.js.map": "/popo952170/static/js/main.1870c515.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43fa7da.css",
-    "static/js/main.0cf6bf14.js"
+    "static/css/main.bf66c05b.css",
+    "static/js/main.1870c515.js"
   ]
 }
